@@ -13,7 +13,7 @@ body{
 }
 h1{
     text-align: center;
-    background-color: darkgray;
+    background-color: rgb(75, 72, 72);
     line-height: 2;
     background-image: url("https://www.xbmu.edu.cn/images/dbxx.png");
     background-repeat: repeat;
@@ -68,12 +68,12 @@ a:hover{
 }
 h2::after{
     content: "✨";
-    margin-left: 2em;
-    padding-left: 2em;
+    margin-left: 0.2em;
+    padding-left: 0.2em;
     display: block;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 10px;
+    left: 1px;
 }
 h2::before{
     content: "";
@@ -111,7 +111,7 @@ h2{
         #f6f8f9 0%,
         #e5ebee 50%,
         #d7dee3 51%,
-        #f5f759 100%,
+        #eff16e 100%,
     );
     line-height: 2;
     width: fit-content;
@@ -133,7 +133,7 @@ ul li{
 }
 h1{
     text-align: center;
-    background-color: darkgray;
+    background-color: rgb(38, 131, 213);
     line-height: 2;
     background-image: url("https://www.xbmu.edu.cn/images/dbxx.png");
     background-repeat: repeat;
